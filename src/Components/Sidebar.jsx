@@ -38,6 +38,19 @@ const Sidebar = () => {
                     Realme
                 </label>
             </div>
+
+            <div className="estado">
+                <h3>Estado do celular:</h3>
+
+                <label htmlFor="novo">
+                    <input type="checkbox" name="" id="novo" />
+                    Novo
+                </label>
+                <label htmlFor="usado">
+                    <input type="checkbox" name="" id="usado" />
+                    Novo
+                </label>
+            </div>
         </div>
     </article>
   )

@@ -7,10 +7,10 @@ const Header = () => {
         <h2> Os melhores aparelhos eletrônicos, <br /> você encontra aqui!</h2>
         <nav className='navbar'>
           <ul>
-            <li>Home</li>
-            <li>Carrinho</li>
-            <li>Favoritos</li>
-            <li>Meus pedidos</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Carrinho</a></li>
+            <li><a href="#">Favoritos</a></li>
+            <li><a href="#">Meus pedidos</a></li>
           </ul>
         </nav>
     </header>
